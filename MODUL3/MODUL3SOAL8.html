@@ -1,0 +1,77 @@
+<html>
+     <head>
+        <title>Soal 8</title>
+     </head>
+     <body>
+        <center>
+            <table border ="3" width="545" cellspacing ="1" >
+                <tr bgcolor = "skyblue">
+                    <th
+                        align="center"
+                        style="font-family: Arial; color: red ; padding : 10px">
+                        <h1>Pendaftran Kursus</h1>
+                    </th>        
+                </tr>
+        </center>
+            <tr bgcolor ="grey" height = "380px">
+                <td valign ="top">
+            <table>
+                <font face="arial" size="5"><b>Data Diri</b></font>
+                <br>
+                <br>
+                <form>
+                    <tr>
+                        <td>Nama</td>
+                        <td><input type="text" name ="nama" size="15"></td>
+                    </tr>    
+                    <tr>
+                        <td>Nim</td>
+                        <td><input type="text" name ="nim" size="15"></td>
+                    </tr>
+                    <tr>
+                        <td>E-mail</td>
+                        <td><input type="text" name ="e-mail" size="15"></td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal Lahir</td>
+                        <td><input type="date" name ="taggal lahir" size="15"></td>    
+                    </tr>
+                    <tr valign = "top">
+                        <td> Jenis kelamin</td>
+                        <td><input type="radio" name ="jenis_kelamin" value="L"> Laki laki
+                        <br>
+                        <input type="radio" name ="jenis_kelamin" value="P">Perempuan</td>
+                    </tr>
+                    <tr valign ="top">
+                        <td>Pilih Program Khusus :</td>
+                        <td><input type="checkbox" name="pr1" value="c#"> C#
+                        <br>
+                        <input type="checkbox" name="pr2" value="Java">Java
+                        <br>
+                        <input type="checkbox" name="pr3" value="SQL">SQL
+                        <br>
+                        <input type="checkbox" name="pr4" value="HTML dan PHP">HTML dan PHP</td>
+                    </tr>
+                    <tr valign = "top">
+                        <td>Pilihan Hari/Jam Kursus</td>
+                        <td><select name="Pilihan Hari/Jam Kursus">
+                        <option value="rabu">Senin - Rabu/09.00 - 11.00</option>
+                        </select>
+                    </td>
+                    </tr>
+                    </form>
+            </table>      
+                <tr bgcolor ="salmon" valign ="top" height="155" >
+                    <td style="padding: 5px;">
+                        komentar anda
+                        <br>
+                    <textarea name="komentar" cols="50" rows="5" style="margin-bottom: 5px;"></textarea> 
+                        <form>
+                            <input type="reset" value="reset" name="Reset">
+                            <input type="submit"value="kirim" name="Submit">
+                            <input type="button" value="batal" name="Cancel">
+                        </form>
+                    </td>
+                </tr>
+     </body>
+</html>
